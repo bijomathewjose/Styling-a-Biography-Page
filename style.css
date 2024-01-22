@@ -9,7 +9,7 @@ body {
 }
 
 .bio-container {
-    max-width: 600px;
+    max-width: 60vw;
     margin: 0 auto;
 }
 
@@ -25,10 +25,18 @@ h1.name {
 
 main {
     padding: 20px;
+    background-color: rgba(234, 234, 234, 0.5);
+    width: '100%';
 }
 
 section {
     margin-bottom: 20px;
+}
+
+iframe {
+    width: 50vw;
+    height: 55vh;
+    padding: 1vw 5vw 0 5vw;
 }
 
 h2 {
